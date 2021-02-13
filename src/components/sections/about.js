@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.JPG" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -142,15 +142,21 @@ const About = () => {
         <StyledText>
           <div>
             <p>Hello! I'm Minhui Xie, a web developer based in College Park, MD.</p>
-            
+
             <p>
-            I earned my Bachelor's degree in Computer Science from the <a href="https://www.umd.edu">University of Maryland, College Park</a> in December 2020.
+              I earned my Bachelor's degree in Computer Science from the{' '}
+              <a href="https://www.umd.edu">University of Maryland, College Park</a> in December
+              2020.
             </p>
 
             <p>
-              Throughout my academic career, I enjoyed building websites and web applications using React, NodeJS, and various JS frameworks. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
-              <br/><br/>Apart from building web applications, I enjoy drawing, singing, reading mangas, and absorb anything that gives me creative ideas.
+              Throughout my academic career, I enjoyed building websites and web applications using
+              React, NodeJS, and various JS frameworks. My goal is to always build products that
+              provide pixel-perfect, performant experiences.
+              <br />
+              <br />
+              Apart from building web applications, I enjoy drawing, singing, reading mangas, and
+              absorb anything that gives me creative ideas.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
