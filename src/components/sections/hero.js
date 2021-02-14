@@ -52,15 +52,23 @@ const Hero = () => {
   const three = <h3 className="medium-heading">I enjoy building cool websites.</h3>;
   const four = (
     <p>
-      I'm a web developer graduated from University of Maryland in Dec, 2020; who is always keeping the good coding habits and currently specializing in front end development. 
-      <br/>
-      <br/>
-      I am always excited about learning and exploring new technologies, therefore I would be more than happy to adapt to any tools that are required! :D
+      I am a web developer who always keep good coding habits and currently specializing in front
+      end development.
+      <br />
+      <br />I am always excited about learning and exploring new technologies, therefore I would be
+      more than happy to adapt to any tools that are required!
     </p>
   );
   const five = (
     <div>
-      <a className="hero-btn resume-link" target="_blank" href="/resume.pdf" rel="noopener noreferrer"> Checkout My Resume</a>
+      <a
+        className="hero-btn resume-link"
+        target="_blank"
+        href="/resume.pdf"
+        rel="noopener noreferrer">
+        {' '}
+        Checkout My Resume
+      </a>
       <a href={`mailto:${email}`} className="hero-btn email-link">
         Get In Touch
       </a>
