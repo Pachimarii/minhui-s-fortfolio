@@ -2,12 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Minhui Xie',
+    title: 'Minhui\'s Portfolio',
     description:
-      'Minhui Xie is a web developer specializing in frontend development.',
-    siteUrl: 'https://MinhuiXie.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+      'Minhui Xie is a web developeI am a web developer graduated from University of Maryland in Dec, 2020; who is always keeping the good coding habits and currently specializing in front end development. I am always excited about learning and exploring new technologies, therefore I would be more than happy to adapt to any tools that are required! :Dr specializing in frontend development.',
+    siteUrl: 'https://minhui-xie.vercel.app', // No trailing slash allowed!
+    image: '/home.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
