@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "minhui-s-portfolio",
+  "description": "learn more about Minhui's experiences and works",
   "version": "1.0.0",
   "author": "Minhui Xie <minhui.ivy.xie@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/Pachimarii/minhui-s-portfolio"
   },
   "keywords": [
     "gatsby"

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Minhui\'s Portfolio',
     description:
-      'Minhui Xie is a web developeI am a web developer graduated from University of Maryland in Dec, 2020; who is always keeping the good coding habits and currently specializing in front end development. I am always excited about learning and exploring new technologies, therefore I would be more than happy to adapt to any tools that are required! :Dr specializing in frontend development.',
+      'I am a web developer graduated from University of Maryland in Dec, 2020; who is always keeping the good coding habits and currently specializing in front end development. Please feel free to checkout my works!',
     siteUrl: 'https://minhui-xie.vercel.app', // No trailing slash allowed!
     image: '/home.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '_',
